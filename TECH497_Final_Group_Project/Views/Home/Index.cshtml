@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="banner">
+    <img id="banner-image" src="~/Content/Images/hero_banner4.jpg" />
+</div>
+
+<div class="container body-content top-spacing">
+    <div class="row row-centered section-spacing">
+        <h2 class="home-page-main-header">Recent Projects</h2>
+        <h3 class="home-page-main-sub-header">This is a short description for our recent projects.</h3>
+        <div class="recent-project-container">
+            <img src="~/Content/Images/2-huffman001.jpg" class="home-recent-project-img">
+            <h4 class="home-recent-project-title">Car Make and Model</h4>
+            <p class="home-recent-project-subtitle">Small subtitle for car</p>
+        </div>
+        <div class="recent-project-container">
+            <img src="~/Content/Images/shop_pictures_026.jpg" class="home-recent-project-img">
+            <h4 class="home-recent-project-title">Car Make and Model</h4>
+            <p class="home-recent-project-subtitle">Small subtitle for car</p>
+        </div>
+        <div class="recent-project-container-end">
+            <img src="~/Content/Images/MVC-023S.jpg" class="home-recent-project-img">
+            <h4 class="home-recent-project-title">Car Make and Model</h4>
+            <p class="home-recent-project-subtitle">Small subtitle for car</p>
+        </div>
+    </div>
+    <h2 class="home-page-main-header">View The Different Cars</h2>
+    <h3 class="home-page-main-sub-header">Click one of the banners below to view the cars for that section.</h3>
+</div>
+<div class="section-image-container">
+    <img class="section-image-left" src="~/Content/Images/street_car_banner_edit.jpg">
+    <img class="section-image-right" src="~/Content/Images/drag_racing_banner_edit.jpg">
+</div>
+
+@section Scripts {
+    @Styles.Render("~/Content/css")
+}
